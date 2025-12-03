@@ -12,7 +12,7 @@ The primary issue is an inability to reliably send real-time updates from an Azu
 
 This prototype demonstrates a middleware architecture that leverages **Google's Firebase Cloud Messaging (FCM)** to bypass these restrictions and provide efficient, real-time push notifications.
 
-The backend acts as a **`وسيط` (trusted intermediary)**, which can be hosted on Azure. Here is the proposed workflow:
+The backend acts as a ** (trusted intermediary)**, which can be hosted on Azure. Here is the proposed workflow:
 
 1.  **Trigger Event**: An action is initiated within the primary business application (e.g., a manager presses a button to publish an update).
 2.  **API Call**: The application makes a single API call to the `/notify` endpoint of this middleware backend.
